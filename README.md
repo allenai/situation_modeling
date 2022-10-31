@@ -1,7 +1,11 @@
 Situation Modeling
 ======================
 
-Code base for situation modeling projects.
+Code base for situation modeling projects and other general-purpose
+tools for NLU based on (Huggingface)[https://github.com/huggingface/transformers].
+
+For details about our EMNLP 2022 paper on breakpoint modeling, see
+`etc/emnlp_2022_scripts` (more details forthcoming). 
 
 ## Basic setup
 ----------------------------
@@ -113,7 +117,3 @@ model.modify_config("max_output_length",2) <-- change output length
 out = model.query("question: $answer$ football $context$ John took the football there. $story$ Sandra picked up the milk there. John took th football there.")
 #->['What'] 
 ```
-
-# EMNLP 2022, breakpoint models 
-
-please see etc/emnl_2022_scripts, more information coming
