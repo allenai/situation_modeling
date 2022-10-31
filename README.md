@@ -2,7 +2,7 @@ Situation Modeling
 ======================
 
 Code base for situation modeling projects and other general-purpose
-tools for NLU based on (Huggingface)[https://github.com/huggingface/transformers].
+tools for NLU based on [**huggingface transformers**](https://github.com/huggingface/transformers).
 
 For details about our EMNLP 2022 paper on breakpoint modeling, see
 `etc/emnlp_2022_scripts` (more details forthcoming). 
